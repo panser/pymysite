@@ -16,5 +16,5 @@ urlpatterns = patterns('',
      url(r'^admin/', include(admin.site.urls)),
 
     # for polls
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^polls/', include('polls.urls')),
 )
